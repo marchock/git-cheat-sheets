@@ -42,14 +42,14 @@ see only the last commit made
 use git checkout when you have not added files.
 
 ##revert
-use git revert when a files have been committed
+use git revert when files have been committed
 ```javascript
 #git revert commit-hash
 ```
-note: use the commit-hash you wast to revert
+note: select the commit-hash to revert not the previous commit-hash
 
 ##reset
-removes all the changes made from files and logs
+removes all changes from files and logs
 
 ```javascript
 git reset —hard commit-hash
