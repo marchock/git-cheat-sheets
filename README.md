@@ -10,19 +10,25 @@ Edit git config file to change [core] or [remote "origin"]
  ```
 
 —————————————————————————
+
 git stash
+
  ```javascript
 #git stash apply
  ```
 
 —————————————————————————
+
 roll back one commit
+
  ```javascript
 #git reset --hard commit-hash
  ```
 
 —————————————————————————
+
 see only the last commit made
+
  ```javascript
 #git log -1
  ```
